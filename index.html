@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Image Gallery 📸</h1>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="cricketer">Cricket</button>
+            <button class="filter-btn" data-filter="footballer">Football</button>
+            <button class="filter-btn" data-filter="athlete">Athlete</button>
+        </div>
+
+        <div class="gallery" id="gallery"></div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <span class="modal-nav modal-prev" id="modalPrev">&#10094;</span>
+            <img src="" alt="" id="modalImg">
+            <span class="modal-nav modal-next" id="modalNext">&#10095;</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
