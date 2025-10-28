@@ -1,18 +1,35 @@
-// Image data
+// Image data - GITHUB PAGES COMPATIBLE
+// Option 1: If images folder is at root level, use relative path
 const images = [
-    { src: '../images/virat.jpg', title: 'Virat Kohli', category: 'cricketer' },
-    { src: '../images/rohit.jpg', title: 'Rohit Sharma', category: 'cricketer' },
-    { src: '../images/sunil.jpg', title: 'Sunil Chettri', category: 'footballer' },
-    { src: '../images/neeraj.jpg', title: 'Neeraj Chopra', category: 'athlete' },
-    { src: '../images/messi.jpg', title: 'Messi', category: 'footballer' },
-    { src: '../images/sachin.jpg', title: 'Sachin Tendulkar', category: 'cricketer' },
-    { src: '../images/dhoni.jpg', title: 'M.S Dhoni', category: 'cricketer' },
-    { src: '../images/ronaldo.jpg', title: 'Ronaldo', category: 'footballer' },
-    { src: '../images/manu.jpg', title: 'Manu Bhakar', category: 'athlete' },
-    { src: '../images/harman.jpg', title: 'Harmanpreet Kaur', category: 'cricketer' },
-    { src: '../images/aman.jpg', title: 'Aman Sehrawat', category: 'athlete' },
-    { src: '../images/vinesh.jpg', title: 'Vinesh Phogat', category: 'athlete' }
+    { src: 'images/virat.jpg', title: 'Virat Kohli', category: 'cricketer' },
+    { src: 'images/rohit.jpg', title: 'Rohit Sharma', category: 'cricketer' },
+    { src: 'images/sunil.jpg', title: 'Sunil Chettri', category: 'footballer' },
+    { src: 'images/neeraj.jpg', title: 'Neeraj Chopra', category: 'athlete' },
+    { src: 'images/messi.jpg', title: 'Messi', category: 'footballer' },
+    { src: 'images/sachin.jpg', title: 'Sachin Tendulkar', category: 'cricketer' },
+    { src: 'images/dhoni.jpg', title: 'M.S Dhoni', category: 'cricketer' },
+    { src: 'images/ronaldo.jpg', title: 'Ronaldo', category: 'footballer' },
+    { src: 'images/manu.jpg', title: 'Manu Bhakar', category: 'athlete' },
+    { src: 'images/harman.jpg', title: 'Harmanpreet Kaur', category: 'cricketer' },
+    { src: 'images/aman.jpg', title: 'Aman Sehrawat', category: 'athlete' },
+    { src: 'images/vinesh.jpg', title: 'Vinesh Phogat', category: 'athlete' }
 ];
+
+// If the above doesn't work, uncomment this and use absolute paths:
+// const images = [
+//     { src: '/images/virat.jpg', title: 'Virat Kohli', category: 'cricketer' },
+//     { src: '/images/rohit.jpg', title: 'Rohit Sharma', category: 'cricketer' },
+//     { src: '/images/sunil.jpg', title: 'Sunil Chettri', category: 'footballer' },
+//     { src: '/images/neeraj.jpg', title: 'Neeraj Chopra', category: 'athlete' },
+//     { src: '/images/messi.jpg', title: 'Messi', category: 'footballer' },
+//     { src: '/images/sachin.jpg', title: 'Sachin Tendulkar', category: 'cricketer' },
+//     { src: '/images/dhoni.jpg', title: 'M.S Dhoni', category: 'cricketer' },
+//     { src: '/images/ronaldo.jpg', title: 'Ronaldo', category: 'footballer' },
+//     { src: '/images/manu.jpg', title: 'Manu Bhakar', category: 'athlete' },
+//     { src: '/images/harman.jpg', title: 'Harmanpreet Kaur', category: 'cricketer' },
+//     { src: '/images/aman.jpg', title: 'Aman Sehrawat', category: 'athlete' },
+//     { src: '/images/vinesh.jpg', title: 'Vinesh Phogat', category: 'athlete' }
+// ];
 
 // DOM elements
 const gallery = document.getElementById('gallery');
