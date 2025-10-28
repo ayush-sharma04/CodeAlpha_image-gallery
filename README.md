@@ -6,7 +6,7 @@ This project displays categorized sports images with filtering, hover effects, a
 ---
 
 ## 🌐 Live Demo  
-🔗 **View Online:** [CodeAlpha Image Gallery](https://ayush-sharma04.github.io/CodeAlpha_ImageGallery/)
+🔗 **View Online:** [CodeAlpha Image Gallery](https://ayush-sharma04.github.io/CodeAlpha_image-gallery/)
 
 ---
 
